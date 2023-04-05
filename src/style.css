@@ -8,10 +8,9 @@
 }
 
 .title-text {
-  padding: 1vw;
+  align-self: center;
   font-family: sans-serif;
   margin: 0;
-  border-bottom: 1px solid #eee;
 }
 
 .task-input {
@@ -23,17 +22,45 @@
 .task-input-box {
   padding: 1vw;
   border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
 }
 
 .list-item {
   padding: 1vw;
   border-bottom: 1px solid #eee;
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .add-todo-btn {
   content: url("./images/add.png");
-  width: 1vw;
+  width: 1.2vw;
+  height: 1.2vw;
+  opacity: 0.5;
+}
+
+.list-menu-icn {
+  content: url("./images/menu.png");
+  width: 1.5vw;
+  height: 1.5vw;
+  opacity: 0.5;
+}
+
+.refresh-icn {
+  content: url("./images/refresh.png");
+  width: 1.7vw;
+  height: 1.7vw;
+  align-self: center;
+  opacity: 0.5;
+}
+
+.title-ref-box {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 1vw;
 }
 
 .clear-btn-box {
