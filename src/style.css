@@ -1,0 +1,45 @@
+* {
+  font-family: system-ui;
+}
+
+.todo-list {
+  margin: 5vw 15vw;
+  box-shadow: 0.3vw 0.3vw 1.5vw grey;
+}
+
+.title-text {
+  padding: 1vw;
+  font-family: sans-serif;
+  margin: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.task-input {
+  border-style: none;
+  outline: none;
+  font-style: italic;
+}
+
+.task-input-box {
+  padding: 1vw;
+  border-bottom: 1px solid #eee;
+}
+
+.list-item {
+  padding: 1vw;
+  border-bottom: 1px solid #eee;
+  list-style: none;
+}
+
+.add-todo-btn {
+  content: url("./images/add.png");
+  width: 1vw;
+}
+
+.clear-btn-box {
+  padding: 1.5vw 1vw;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
